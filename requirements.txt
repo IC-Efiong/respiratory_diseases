@@ -1,0 +1,8 @@
+Flask
+SQLAlchemy
+flask_sqlalchemy
+scikit-fuzzy
+scikit-learn
+pandas
+numpy
+joblib
