@@ -1,0 +1,64 @@
+Dataset Information:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7000 entries, 0 to 6999
+Data columns (total 13 columns):
+ #   Column                             Non-Null Count  Dtype  
+---  ------                             --------------  -----  
+ 0   Age                                7000 non-null   int64  
+ 1   Body Temperature                   7000 non-null   float64
+ 2   Respiratory Rate                   7000 non-null   int64  
+ 3   Heart Rate                         7000 non-null   int64  
+ 4   Cough Severity                     7000 non-null   int64  
+ 5   Chest Pain Severity                7000 non-null   int64  
+ 6   Oxygen Saturation                  7000 non-null   float64
+ 7   Shortness of Breath                7000 non-null   int64  
+ 8   Sputum Production                  7000 non-null   int64  
+ 9   History of Smoking                 7000 non-null   int64  
+ 10  History of Respiratory Infections  7000 non-null   int64  
+ 11  Exposure to Pollutants             7000 non-null   int64  
+ 12  Early Diagnosis                    7000 non-null   int64  
+dtypes: float64(2), int64(11)
+memory usage: 711.1 KB
+
+
+Basic Statistics:
+               Age  Body Temperature  Respiratory Rate   Heart Rate  Cough Severity  Chest Pain Severity  Oxygen Saturation  Shortness of Breath  Sputum Production  History of Smoking  History of Respiratory Infections  Exposure to Pollutants  Early Diagnosis
+count  7000.000000       7000.000000       7000.000000  7000.000000     7000.000000          7000.000000        7000.000000          7000.000000        7000.000000         7000.000000                        7000.000000             7000.000000      7000.000000
+mean     44.711143         37.982782         20.554286    89.302571        3.038000             2.994714          92.435413             0.493429           0.503286            0.502714                           0.503000                0.507000         0.500714
+std      25.604490          1.149868          5.235194    17.233531        1.419251             1.409903           4.321553             0.499993           0.500025            0.500028                           0.500027                0.499987         0.500035
+min       1.000000         36.000211         12.000000    60.000000        1.000000             1.000000          85.002482             0.000000           0.000000            0.000000                           0.000000                0.000000         0.000000
+25%      22.000000         36.995574         16.000000    74.000000        2.000000             2.000000          88.736131             0.000000           0.000000            0.000000                           0.000000                0.000000         0.000000
+50%      45.000000         37.965359         21.000000    89.000000        3.000000             3.000000          92.411664             0.000000           1.000000            1.000000                           1.000000                1.000000         1.000000
+75%      66.000000         38.974052         25.000000   104.000000        4.000000             4.000000          96.147180             1.000000           1.000000            1.000000                           1.000000                1.000000         1.000000
+max      89.000000         39.998693         29.000000   119.000000        5.000000             5.000000          99.998495             1.000000           1.000000            1.000000                           1.000000                1.000000         1.000000
+
+Skewness of features:
+Age                                  0.024329
+Body Temperature                     0.025957
+Respiratory Rate                    -0.012655
+Heart Rate                           0.013403
+Cough Severity                      -0.025674
+Chest Pain Severity                 -0.005017
+Oxygen Saturation                    0.037167
+Shortness of Breath                  0.026294
+Sputum Production                   -0.013146
+History of Smoking                  -0.010860
+History of Respiratory Infections   -0.012003
+Exposure to Pollutants              -0.028009
+Early Diagnosis                     -0.002858
+
+Shapiro-Wilk test results:
+                                   statistic       p-value
+Age                                 0.955685  1.024489e-41
+Body Temperature                    0.955763  1.090911e-41
+Respiratory Rate                    0.945747  5.605194e-45
+Heart Rate                          0.955115  6.469795e-42
+Cough Severity                      0.886845  0.000000e+00
+Chest Pain Severity                 0.888393  0.000000e+00
+Oxygen Saturation                   0.956027  1.352673e-41
+Shortness of Breath                 0.636595  0.000000e+00
+Sputum Production                   0.636638  0.000000e+00
+History of Smoking                  0.636580  0.000000e+00
+History of Respiratory Infections   0.636686  0.000000e+00
+Exposure to Pollutants              0.636580  0.000000e+00
+Early Diagnosis                     0.636644  0.000000e+00
